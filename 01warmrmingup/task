@@ -1,0 +1,55 @@
+Login
+Warming-up
+Deadline: Wednesday, 28. September 2011, 12:00 (Done)
+
+1. Registration
+2. Project Wiki
+3. Programming
+(1 point)
+1. Registration
+
+To register for the exercises, send a mail to ese-staff@iam.unibe.ch with the title "registration ESE 2011".
+
+We will then assign you a username and a password that you will use for point 2 to set up you wiki page.
+
+You will also need to set up a github account, and a twitter account. We suggest to use the same username as we will assign you for the wiki, but if you already have a github or twitter account you can of course use them.
+
+Recommended readings for github are: Troubleshooting SSH issues, Working with remotes, Forking a project
+
+Create a repository ese2011-warmup. We also ask you to follow the ese_unibe_ch twitter stream to get notified about the lecture.
+
+This part of the exercise is solved if you successfully obtained a wiki, github and twitter account, created the repository and follow the twitter stream.
+
+(1 point)
+2. Project Wiki
+
+After you send a mail for registration, you will receive an email back from us with a link to your personal page on the project Wiki, as well as the username and password to access it. In this task you are asked to get acquainted with the Wiki and to setup your personal page. Read the introduction on Pier and especially the section on Syntax to learn more about the system.
+
+Login to the system and edit your personal page. Introduce yourself by writing a few short paragraphs about yourself and your knowledge and experience in Software Engineering. If you like you can also write down your contact information, this will likely be useful during the project later on in this course. The page is not visible without authentication and therefore not indexed by search engines.
+
+Answer the following questions with a few keywords or a short sentence:
+
+What programming languages do you know and use?
+Have you been involved in any software projects?
+Do you have experience working in teams?
+Specify you github and twitter account and email address.
+Don’t forget to click on Apply from time to time to save the page.
+
+(4 points)
+3. Programming
+
+The goal of this task is to implement a simple calendar application. Each user in the system has it own calendar. The calendar is accessible to all users in the system, but only one owner who can edit it.
+
+The requirements you are asked to implement are:
+
+Users have a name.
+Calendara have a name, and an owner (the user who can edit it).
+Calendars have events.
+An event has a
+start date/time
+end date/time
+a name.
+An event can be public or private (private events are visible to the owner only).
+A user can obtain an iterator over the list of events he is allowed to see in a calendar, starting from a specific date.
+A user can obtain the list of events he is allowed to see in a calendar for a given date.
+Note that this task only involves to model the requested features of the entities User, Calendar, Event. We do not ask you to provide a user-interface. The code has to be accompanied with unit-tests though. For each of the above requirements, it is required to have at least one test method containing at least one assertion. For the two last requirements, you must have at leat 3 test methods that cover different cases (event visibility, events over mutliple days, etc.)

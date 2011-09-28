@@ -1,0 +1,22 @@
+User
+	-a Name (String)
+	does:
+	-create new Calendars
+	-knows all his Calendars
+	-creates new Events within Calendars
+
+
+Calendar
+	-a Name
+	-a User[owner]
+	-several Events
+	does:
+	-keep track of all its Events, returns Lists/Iterators of Events
+	
+Event
+	-start Time/Date
+	-end Time/Date
+	-a Name
+	-may be public or private
+	-know its status private/public
+	
